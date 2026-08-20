@@ -5,82 +5,69 @@ last edited 2026/07/15
 */
 
 body {
-background-color:#f8f8f8;
-color: #000;
-font-family: 'MS PGothic';
-font-size: 12;
+    background-color: rgba(106, 119, 142, 1);
+    color: #000;
+    font-family: 'MS PGothic';
+    font-size: 16px;
 }
 
 a:link {
-text-decoration: none;
-opacity:1.0;
-color: #104b95;
--webkit-transition: 0.2s ease-in-out;
--moz-transition: 0.2s ease-in-out;
--o-transition: 0.2s ease-in-out;
-transition: 0.2s ease-in-out;
+    text-decoration: none;
+    opacity:1.0;
+    color: #255896;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 a:visited {
-color:#00246d;
+    color:#222c5d;
 }
 
 a:hover {
-cursor:help;
-color: #7794cf;
--webkit-transition: 0.2s ease-in-out;
--moz-transition: 0.2s ease-in-out;
--o-transition: 0.2s ease-in-out;
-transition: 0.2s ease-in-out;
+    cursor:help;
+    color: #7794cf;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 a:active {
-color:#000; 
+    color:#000; 
 }
 
 ::selection {
-background-color:rgb(171, 171, 171);
+    background-color:rgba(125, 160, 196, 0.5);
 }
 
 ::-webkit-scrollbar {
-width: 8px;
-height: 8px;
+    width: 8px;
+    height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-background-color: #ffffff;
-border: 1px solid #ffffff;
-
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
 ::-webkit-scrollbar-track {
-background-color: #000000;
+    background-color: #000000;
 }
 
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
+    from {    opacity: 0;}
 
-    to {
-        opacity: 1;
-    }
+    to {    opacity: 1;}
 }
 
 @keyframes borderflash {
-    0% {
-        border-color: #ff000d
-    }
+    0% {    border-color: #ff000d}
 
-    25% {
-        border-color: #0062ff
-    }
+    25% {   border-color: #0062ff}
 
-    50% {
-        border-color: #00ff2a
-    }
+    50% {   border-color: #00ff2a}
 
-    75% {
-        border-color: #fff
-    }
+    75% {    border-color: #fff}
 }
 
 table {
@@ -92,14 +79,11 @@ table {
 }
 
 .container {
-    text-align: center;
-    background-color: #f8f8f8;
-    background-color: rgba(204, 204, 204, 1.0);
+    background-color: rgba(235, 235, 235, 0.5);
     width: 50%;
     margin: auto;
-    /* border-style: solid;
-    border-width: 5px;
-    border-color: #627098; */
+    padding: 1px 10px;
+    border: 5px solid rgba(47, 65, 89, 1);
 }
 
 .work {
@@ -109,4 +93,8 @@ table {
 #gallery {
     max-width: 75%;
     margin: auto;
+}
+
+#tape {
+    font-family: monospace;
 }
