@@ -4,6 +4,16 @@ created 2026/06/04
 last edited 2026/07/15
 */
 
+@media screen and (min-width: 1023px) {
+    .body {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 50%;
+    }
+}
+
 body {
     background-color: rgba(106, 119, 142, 1);
     color: #000;
@@ -54,36 +64,6 @@ a:active {
     background-color: #000000;
 }
 
-@keyframes fadein {
-    from {    opacity: 0;}
-
-    to {    opacity: 1;}
-}
-
-@keyframes borderflash {
-    0% {    border-color: #ff000d}
-
-    25% {   border-color: #0062ff}
-
-    50% {   border-color: #00ff2a}
-
-    75% {    border-color: #fff}
-}
-
-table {
-    width: 100%;
-    border: none;
-    margin: 10px 5px auto;
-    position: relative;
-    text-align: left;
-}
-
-@media screen and (min-width: 1023px) {
-    .container {
-        width: 50%;
-    }
-}
-
 .container {
     background-color: rgba(235, 235, 235, 0.5);
     margin: auto;
@@ -102,4 +82,40 @@ table {
 
 #tape {
     font-family: monospace;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes borderflash {
+    0% {
+        border-color: #ff000d
+    }
+
+    25% {
+        border-color: #0062ff
+    }
+
+    50% {
+        border-color: #00ff2a
+    }
+
+    75% {
+        border-color: #fff
+    }
+}
+
+table {
+    width: 100%;
+    border: none;
+    margin: 10px 5px auto;
+    position: relative;
+    text-align: left;
 }
