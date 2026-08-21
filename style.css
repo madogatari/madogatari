@@ -3,22 +3,18 @@ madogatari - style.css
 created 2026/06/04
 last edited 2026/07/15
 */
-
-@media screen and (min-width: 1023px) {
-    .body {
-        font-size: 24px;
-    }
-
+@media screen and (min-width: 767px) {
     .container {
         width: 50%;
     }
 }
 
+
 body {
     background-color: rgba(106, 119, 142, 1);
     color: #000;
     font-family: 'MS PGothic';
-    font-size: 16px;
+    font-size: clamp(16px, 1vw, 24px);
 }
 
 a:link {
