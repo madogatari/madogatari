@@ -64,7 +64,7 @@ a:active {
     background-color: rgba(235, 235, 235, 0.5);
     margin: auto;       
     padding: 1px 10px;
-    border: 5px solid rgba(47, 65, 89, 1);
+    /* border: 5px solid rgba(47, 65, 89, 1); */
 }
 
 .work {
