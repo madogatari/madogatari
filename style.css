@@ -60,6 +60,10 @@ a:active {
     padding: 1px 10px;
 }
 
+#gallery {
+    text-align: center;
+}
+
 #gallery img {
     width: 100%;
 }
